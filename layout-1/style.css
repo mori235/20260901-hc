@@ -1,0 +1,73 @@
+@charset "utf-8"
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+article,
+section {
+  border: 1px solid #666;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* ヘッダー領域 */
+header {
+  background: tomato;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+/* ナビゲーション領域 */
+nav {
+  background: yellow;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* メイン領域 */
+main {
+  background: lightgreen;
+}
+
+/* コンテンツ */
+.contents {
+  display: flex;
+}
+
+/* サイドバー領域 */
+aside {
+  background: violet;
+  width: 15%;
+  margin-left: auto;
+}
+
+/* 記事領域 */
+article {
+  background: white;
+  width: 80%;
+}
+
+/* セクション領域 */
+section {
+  background: lightgray;
+}
+
+/* フッター領域 */
+footer {
+  background: skyblue;
+}
